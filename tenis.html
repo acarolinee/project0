@@ -12,6 +12,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!-- Bootstrap CDN -->
         <link rel="stylesheet" href="project0.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     </head>
     <body>
 
@@ -38,123 +39,77 @@
             </div>
         </nav>
 
-        <div id="contenido">
-            <h4>Torneo de Houston: La final fue jugada por Christian Garín y Casper Ruud</h4>
-            <p>La tabla de posiciones desde los cuartos de final al finalizar el torneo</p>
+        <div class="container">
 
-            <div class="container">
-                <!-- encabezado -->
-                <div class="row encabezadoTabla">
-                    <div class="col">
-                        Etapa
-                    </div>
-                    <div class="col-6">
-                        Partido
-                    </div>
-                    <div class="col">
-                        Resultado
-                    </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 seccion">
+                    <h4>Torneo de Houston: La final fue jugada por Christian Garín y Casper Ruud</h4>
                 </div>
-                <!-- encabezado -->
-                <!-- final -->
-                <div class="row final">
-                    <div class="col">
-                        Final
-                    </div>
-                    <div class="col-6">
-                        <b>Christian Garín</b> vs Casper Ruud
-                    </div>
-                    <div class="col">
-                        7 6 - 4 6 - 6 3
-                    </div>
-                </div>
-                <!-- final -->
-                <!-- semifinal -->
-                <div class="row semifinal">
-                    <div class="col">
-                        Semi Final
-                    </div>
-                    <div class="col-6">
-                        Daniel Elahi Galán vs <b>Casper Ruud</b>
-                    </div>
-                    <div class="col">
-                        5 7 - 2 6
-                    </div>
-                </div>
-                <!-- semifinal -->
-                <!-- semifinal -->
-                <div class="row semifinal">
-                    <div class="col">
-                        Semi Final
-                    </div>
-                    <div class="col-6">
-                        Sam Querrey vs <b>Christian Garín</b>
-                    </div>
-                    <div class="col">
-                        6 7 - 2 6
-                    </div>
-                </div>
-                <!-- semifinal -->
-                <!-- cuartos de final -->
-                <div class="row cuartos">
-                    <div class="col">
-                        Cuartos de Final
-                    </div>
-                    <div class="col-6">
-                        <b>Daniel Elahi Galán</b> vs Jordan Thompson
-                    </div>
-                    <div class="col">
-                        6 1 - 4 6 - 6 4
-                    </div>
-                </div>
-                <!-- cuartos de final -->
-                <!-- cuartos de final -->
-                <div class="row cuartos">
-                    <div class="col">
-                        Cuartos de Final
-                    </div>
-                    <div class="col-6">
-                        <b>Sam Querrey</b> vs Janko Tipsarevic
-                    </div>
-                    <div class="col">
-                        7 6 - 7 6
-                    </div>
-                </div>
-                <!-- cuartos de final -->
-                <!-- cuartos de final -->
-                <div class="row cuartos">
-                    <div class="col">
-                        Cuartos de Final
-                    </div>
-                    <div class="col-6">
-                        <b>Casper Ruud</b> vs Marcel Granollers
-                    </div>
-                    <div class="col">
-                        6 1 - 6 0
-                    </div>
-                </div>
-                <!-- cuartos de final -->
-                <!-- cuartos de final -->
-                <div class="row cuartos">
-                    <div class="col">
-                        Cuartos de Final
-                    </div>
-                    <div class="col-6">
-                        Henri Laaksonen vs <b>Christian Garín</b>
-                    </div>
-                    <div class="col">
-                        3 6 - 2 6
-                    </div>
-                </div>
-                <!-- cuartos de final -->
             </div>
-            <!-- fin tabla -->
 
-            <p>
-                Christian Garín con este triunfo, sube a la posición 49 del atp el 15 de abril de 2019.
-                Su posición actual es 73.
-            </p>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <p class="lead">Tabla de posiciones desde los cuartos de final</p>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table">
+                      <thead class="thead-dark">
+                            <tr>
+                                  <th scope="col">Etapa</th>
+                                  <th scope="col">Partido</th>
+                                  <th scope="col">Resultado</th>
+                            </tr>
+                      </thead>
+                      <tbody>
+                            <tr class="final">
+                                  <th scope="row">Final</th>
+                                  <td><b>Christian Garín</b> vs Casper Ruud</td>
+                                  <td>7 6 - 4 6 - 6 3</td>
+                            </tr>
+                            <tr class="semifinal">
+                                  <th scope="row">Semi Final</th>
+                                  <td>Daniel Elahi Galán vs <b>Casper Ruud</b></td>
+                                  <td>5 7 - 2 6</td>
+                            </tr>
+                            <tr class="semifinal">
+                                  <th scope="row">Semi Final</th>
+                                  <td>Sam Querrey vs <b>Christian Garín</b></td>
+                                  <td>6 7 - 2 6</td>
+                            </tr>
+                            <tr class="cuartos">
+                                  <th scope="row">Cuartos de Final</th>
+                                  <td><b>Daniel Elahi Galán</b> vs Jordan Thompson</td>
+                                  <td>6 1 - 4 6 - 6 4</td>
+                            </tr>
+                            <tr class="cuartos">
+                                  <th scope="row">Cuartos de Final</th>
+                                  <td><b>Sam Querrey</b> vs Janko Tipsarevic</td>
+                                  <td>7 6 - 7 6</td>
+                            </tr>
+                            <tr class="cuartos">
+                                  <th scope="row">Cuartos de Final</th>
+                                  <td><b>Casper Ruud</b> vs Marcel Granollers</td>
+                                  <td>6 1 - 6 0</td>
+                            </tr>
+                            <tr class="cuartos">
+                                  <th scope="row">Cuartos de Final</th>
+                                  <td>Henri Laaksonen vs <b>Christian Garín</b></td>
+                                  <td>3 6 - 2 6</td>
+                            </tr>
+                      </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <p class="lead">
+                        Christian Garín con este triunfo, sube a la posición 49 del atp el 15 de abril de 2019.
+                    </p>
+                </div>
+            </div>
         </div>
 
     </body>

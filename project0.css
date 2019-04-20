@@ -1,35 +1,59 @@
-#contenido {
-    margin: 16px;
+#contenedorSuperior {
+
+    color:white;
+    background-color: #24c96e;
+    padding-bottom: 100px;
+
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 p {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-table {
-    border-collapse: collapse;
+ul {
+    list-style-position: inside;
+}
+
+td:hover, th:hover {
+  background: #343A40;
+  color: white;
+}
+
+.seccion {
+    /* height:30vh; */
+    margin-top: 100px;
+    /* text-align: center; */
 }
 
 /* Tabla de tenis.html */
-.encabezadoTabla {
-    background-color: #707070;
-    color: white;
-    border: 1px solid black;
-}
 
 .final {
     background-color: #fff72b;
-    border: 1px solid black;
 }
 
 .semifinal {
     background-color: #aaaaaa;
-    border: 1px solid black;
 }
 
 .cuartos {
     background-color: #ff982a;
-    border: 1px solid black;
 }
 
 /* Tabla de tenis.html */
+
+@media screen and (max-width: 600px) {
+    body {
+        font-family: 'Playfair Display', serif;
+        text-align: left;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+}
