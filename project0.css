@@ -15,13 +15,17 @@ p {
     margin-top: 30px;
 }
 
-ul {
+ol {
     list-style-position: inside;
 }
 
 td:hover, th:hover {
   background: #343A40;
   color: white;
+}
+
+a, a:hover {
+    color: #343A40;
 }
 
 .seccion {
@@ -52,7 +56,7 @@ td:hover, th:hover {
         text-align: left;
     }
 
-    ul {
+    ol {
         padding: 0;
     }
 
