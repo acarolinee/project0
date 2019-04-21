@@ -1,6 +1,7 @@
 # Project 0: Homepage
 
 Webpage with Bootstrap 4, HTML, CSS, SCSS
+
 [Project0](https://acarolinee.github.io/project0/)
 
 The project has 4 html pages and is about:
