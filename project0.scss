@@ -1,0 +1,84 @@
+$color-blanco: white;
+
+#contenedorSuperior {
+    color: $color-blanco;
+    background-color: #24c96e;
+    padding-bottom: 100px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+p {
+    margin-top: 30px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+$color-gris: #343A40;
+
+%hover-colors {
+    background: $color-gris;
+    color: $color-blanco;
+}
+
+// SCSS nesting and inheritance
+tr {
+
+    td:hover {
+        @extend %hover-colors;
+    }
+
+    th:hover{
+        @extend %hover-colors;
+    }
+
+}
+// SCSS nesting
+
+// td:hover, th:hover {
+//   background: $color-gris;
+//   color: $color-blanco;
+// }
+
+a, a:hover {
+    color: $color-gris;
+}
+
+.seccion {
+    /* height:30vh; */
+    margin-top: 100px;
+    /* text-align: center; */
+}
+
+/* Tabla de tenis.html */
+
+.final {
+    background-color: #fff72b;
+}
+
+.semifinal {
+    background-color: #aaaaaa;
+}
+
+.cuartos {
+    background-color: #ff982a;
+}
+
+/* Tabla de tenis.html */
+
+@media screen and (max-width: 600px) {
+    body {
+        // font-family: 'Playfair Display', serif;
+        text-align: left;
+    }
+
+    ol {
+        padding: 0;
+    }
+
+}

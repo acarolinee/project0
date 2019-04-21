@@ -1,63 +1,59 @@
 #contenedorSuperior {
-
-    color:white;
-    background-color: #24c96e;
-    padding-bottom: 100px;
-
+  color: white;
+  background-color: #24c96e;
+  padding-bottom: 100px;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
+  font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
 p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 ol {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
-td:hover, th:hover {
+tr th:hover, tr td:hover {
   background: #343A40;
   color: white;
 }
 
 a, a:hover {
-    color: #343A40;
+  color: #343A40;
 }
 
 .seccion {
-    /* height:30vh; */
-    margin-top: 100px;
-    /* text-align: center; */
+  /* height:30vh; */
+  margin-top: 100px;
+  /* text-align: center; */
 }
 
 /* Tabla de tenis.html */
-
 .final {
-    background-color: #fff72b;
+  background-color: #fff72b;
 }
 
 .semifinal {
-    background-color: #aaaaaa;
+  background-color: #aaaaaa;
 }
 
 .cuartos {
-    background-color: #ff982a;
+  background-color: #ff982a;
 }
 
 /* Tabla de tenis.html */
-
 @media screen and (max-width: 600px) {
-    body {
-        font-family: 'Playfair Display', serif;
-        text-align: left;
-    }
+  body {
+    text-align: left;
+  }
 
-    ol {
-        padding: 0;
-    }
-
+  ol {
+    padding: 0;
+  }
 }
+
+/*# sourceMappingURL=project0.css.map */
